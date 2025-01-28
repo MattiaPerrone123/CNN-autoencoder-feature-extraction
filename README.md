@@ -1,18 +1,9 @@
 # CNN Autoencoder Feature Extraction
 
-# Medical Image Analysis
-This repository contains the codebase for a project focused on feature extraction from medical images using a convolutional neural network (CNN)-based autoencoder. The project explores the use of autoencoders to identify latent features in segmented medical images, with applications in analyzing spinal morphology and associated clinical conditions. Initial findings demonstrate the potential of CNN autoencoders for analyzing complex medical imaging datasets. For more details, please see the [abstract](docs/abstract.pdf) (poster at ORS 2025 annual meeting).
+This repository contains the codebase for a project focused on feature extraction from lumbar spine MRI using a convolutional neural network (CNN)-based autoencoder. These extracted features are then used to enhance predictions of disc pathologies, such as disc narrowing. For more details, please see the [abstract](docs/abstract.pdf) (podium at ORS-PSRS 2024).
 
 ## Data
-The input data consists of medical images, including both structural (e.g., CT scans) and functional (e.g., PET scans) modalities. These data are not included in the repository but follow the directory structure outlined in the `data/` folder. Subfolders contain images and masks for individual patients. Example input data includes:
-
-- Structural images: CT or MRI scans stored as `.mha` files
-- Functional images: PET scans for advanced analysis
-- Annotations: Ground truth values provided in `annotations.xlsx`
-
-These files are processed through the pipeline, which integrates segmentation, preprocessing, and feature extraction.
-
-
+The dataset comprises 447 lumbar spine MRI scans obtained from 218 patients with a history of low back pain. While the dataset itself is not included in this repository, the expected directory structure for organizing the data is outlined in the ```data``` folder. Subfolders are designed to hold images, masks and annotations for each patient.
 
 
 ## Pipeline
