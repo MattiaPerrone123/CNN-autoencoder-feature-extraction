@@ -31,7 +31,7 @@ These files are processed through the pipeline, which integrates segmentation, p
 <br>
 
 <p align="center">
-  <img src="figures/pipeline.png" width="1250" height="230">
+  <img src="docs/pipeline.png" width="1250" height="230">
 </p>
 
 <br>
