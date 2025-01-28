@@ -14,7 +14,7 @@ The dataset comprises 447 lumbar spine MRI scans obtained from 218 patients with
 - **Geometric features computation**:
   - Computing disc geometry such as disc height, width and orientation
 - **Disc narrowing prediction**:
-  - Predicting disc narrowing by leveraging extracted features and correlating them with patient-specific clinical labels.
+  - Predicting disc narrowing by leveraging latent and geometric features
 - **Feature interpretability**:
   - Analyzing the interpretability of autoencoder latent features by correlating them the extracted geometric features
 
@@ -38,7 +38,7 @@ The dataset comprises 447 lumbar spine MRI scans obtained from 218 patients with
 - ```docs```: Documentation and resources, including:
   - **abstract.pdf**: Abstract presented at the ORS 2025 annual meeting
   - **poster.pptx**: Poster presentation slide (ORS 2025)
-  - **podium.pptx**: Slides for podium presentation (PSRS 2024)
+  - **podium.pptx**: Slides for podium presentation (ORS-PSRS 2024)
 - **main.ipynb**: Jupyter Notebook demonstrating the pipeline's usage
 - **requirements.txt**: Python dependencies required for the project
 - **.gitignore**: Specifies files and folders to exclude from version control
