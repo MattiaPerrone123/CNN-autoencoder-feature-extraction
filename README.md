@@ -3,7 +3,7 @@
 This repository contains the codebase for a project focused on feature extraction from lumbar spine MRI scans using a convolutional neural network (CNN)-based autoencoder. These extracted features are then used to enhance predictions of disc pathologies, such as disc narrowing. For more details, please see the [abstract](docs/abstract.pdf) (podium at ORS-PSRS 2024).
 
 ## Data
-The dataset comprises 447 lumbar spine MRI scans obtained from 218 patients with a history of low back pain. While the dataset itself is not included in this repository, the expected directory structure for organizing the data is outlined in the ```data``` folder. Subfolders are designed to hold images, masks and annotations for each patient.
+The dataset comprises 447 lumbar spine MRI scans obtained from 218 patients with a history of low back pain ([Van der Graaf et al. 2024](https://www.nature.com/articles/s41597-024-03090-w). While the dataset itself is not included in this repository, the expected directory structure for organizing the data is outlined in the ```data``` folder. Subfolders are designed to hold images, masks and annotations for each patient.
 
 
 ## Pipeline
