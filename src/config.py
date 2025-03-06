@@ -2,9 +2,9 @@ import torch
 
 config={
     #Paths
-    "curr_path": "C:\\Users\\Mattia\\Desktop\\Datasets\\Datasets\\Dataset_MRI_van_der_graaf\\van_der_graaf",
-    "save_path": "prova.pth",
-    "path_weights": "C:\\Users\\Mattia\\Desktop\\Datasets\\Datasets\\Dataset_MRI_van_der_graaf\\van_der_graaf\\best_model_weights_training_PETMRI_augmented_disc_PSRS.pth",
+    "curr_path": "/path/to/dataset",
+    "save_path": "/path/to/save/dataset.pth",
+    "path_weights": "/path/to/weights.pth",
 
     #Image and Mask Settings
     "target_resolution": (1.4, 1.2, 1.5),
